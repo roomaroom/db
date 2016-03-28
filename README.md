@@ -37,6 +37,7 @@ gem install devise
 Fixnum (целые числа, меньшие 2^{30}),
 Bignum (целые числа, большие 2^{30}),
 Float (числа с плавающей запятой),
+nil
 Array (массивы),
 String (строки),
 Symbols
@@ -83,5 +84,31 @@ end
 ```
 if cond
   # code to do
+end
+///////////
+
+if cond
+   puts "x is 2"
+else
+   puts "I can't guess the number"
+end
+
+
+unless cond
+  # code to do
+end
+
+age = 3
+case $age
+when 0 .. 2
+  puts "baby"
+when 3 .. 6
+  puts "little child"
+when 7 .. 12
+  puts "child"
+when 13 .. 18
+  puts "youth"
+else
+  puts "adult"
 end
 ```
