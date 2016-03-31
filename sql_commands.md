@@ -95,3 +95,4 @@ WHERE column_name LIKE pattern;
 ```
 http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_like
 http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_like_ending
+
