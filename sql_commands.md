@@ -96,3 +96,9 @@ WHERE column_name LIKE pattern;
 http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_like
 http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_like_ending
 
+##SQL CREATE INDEX
+Indexes allow the database application to find data fast; without reading the whole table.
+```
+CREATE INDEX index_name
+ON table_name (column_name)
+```
