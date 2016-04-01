@@ -15,15 +15,15 @@ FROM Orders
 INNER JOIN Customers
 ON Orders.CustomerID=Customers.CustomerID;
 ```
-http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_join
+http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_join  
 http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_join_inner
 ##Different SQL JOINs
 Before we continue with examples, we will list the types of the different SQL JOINs you can use:
 
-INNER JOIN: Returns all rows when there is at least one match in BOTH tables
-LEFT JOIN: Return all rows from the left table, and the matched rows from the right table
-RIGHT JOIN: Return all rows from the right table, and the matched rows from the left table
-FULL JOIN: Return all rows when there is a match in ONE of the tables
+- INNER JOIN: Returns all rows when there is at least one match in BOTH tables
+- LEFT JOIN: Return all rows from the left table, and the matched rows from the right table
+- RIGHT JOIN: Return all rows from the right table, and the matched rows from the left table
+- FULL JOIN: Return all rows when there is a match in ONE of the tables
 
 ##SQL LEFT JOIN Keyword
 ```
@@ -32,7 +32,7 @@ FROM table1
 LEFT JOIN table2
 ON table1.column_name=table2.column_name;
 ```
-![iamge] (http://www.w3schools.com/sql/img_leftjoin.gif)
+![iamge] (http://www.w3schools.com/sql/img_leftjoin.gif)  
 http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_join_left
 
 ##SQL RIGHT JOIN
@@ -42,7 +42,7 @@ FROM table1
 RIGHT JOIN table2
 ON table1.column_name=table2.column_name;
 ```
-![image](http://www.w3schools.com/sql/img_rightjoin.gif)
+![image](http://www.w3schools.com/sql/img_rightjoin.gif)  
 http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_join_right&ss=-1
 
 ##SQL FULL OUTER JOIN
@@ -52,5 +52,5 @@ FROM table1
 FULL OUTER JOIN table2
 ON table1.column_name=table2.column_name;
 ```
-![image](http://www.w3schools.com/sql/img_fulljoin.gif)
+![image](http://www.w3schools.com/sql/img_fulljoin.gif)  
 http://www.w3schools.com/sql/sql_join_full.asp
